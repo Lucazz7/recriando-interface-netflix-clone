@@ -1,0 +1,140 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/backgrould.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+header .logo{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', times;
+    font-size: 42px;
+}
+
+.login{
+    align-items: center;
+    font-size: 30px;
+    width: 500px;
+    height: 500px;
+    margin-top: 15%;
+    margin-left: 34%;
+    margin-bottom: 30%;
+    padding: 50px 50px;
+    background-color: #000000c7;
+}
+
+.login .usuario{
+    border: none;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 15px 40px;
+    margin-left: -20px;
+
+
+}
+
+.login .senha{
+    width: 400px;
+    font-size: 20px;
+    padding: 12px 40px;
+    margin-left: -20px;
+    margin-top: -5px;
+}
+
+.botao1{
+    margin-top: 20px;
+    width: 400px;
+    border: none;
+    background-color: var(--vermelho);
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao :hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+header .botao nav a{
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+.checkbox{
+    height: 100px;
+    margin-top: 10px;
+    color: rgba(105, 104, 104, 0.699);
+    font-size: 16px;
+}
+
+.checkbox .ajuda{
+    border: none;
+    color: rgba(105, 104, 104, 0.699);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%);
+    margin-left: 116px;
+    font-size: 16px;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+header nav a{
+    text-decoration: none;
+    border: none;
+    color:  rgba(105, 104, 104, 0.699);
+}
+
+.assinaface{
+  height: 20px;
+  padding: 4px 4px;
+  margin-top: 30px;
+  margin-left: -5px;
+}
+
+.novo{
+  height: 5px;
+  padding: 4px 4px;
+  margin-top: 5px;
+  margin-left: -5px;
+
+}
+
+header.assine nav a{
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+

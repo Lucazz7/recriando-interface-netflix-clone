@@ -1,0 +1,102 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+
+body{
+    background-image: url(img/backgrould.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+header .logo{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', times;
+    font-size: 42px;
+}
+
+header .botao{
+    text-decoration: solid;
+    background-color: var(--vermelho);
+    border: none;
+    color: white;
+    
+    margin-left: 92%;
+    margin-top: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.titulo{
+    width: 59%;
+    margin-top: 6%;
+    font-size: 80px;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.descricao{
+    margin-top: 15px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.botao2{
+    background-color: var(--vermelho);
+    border: none;
+    color: white;
+
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 15px 35px;
+    font-size: 15px;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+
+
+.botao2:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+header nav a{
+    text-decoration: none;
+    border: none;
+    color: white;
+}
