@@ -47,7 +47,8 @@ header nav a:hover{
 /*Filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(img/);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(img/fundo1.jpg);
+    
     
     height: 650px;
     background-size: cover;
@@ -110,7 +111,7 @@ header nav a:hover{
 }
 
 .minhalista{
-    margin-top: 250px;
+    margin-top: 270px;
     font-size: 25px;
 }
 
